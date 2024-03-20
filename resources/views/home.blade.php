@@ -24,6 +24,7 @@
             <th>Data Partenza</th>
             <th>Luogo Arrivo</th>
             <th>Data Arrivo</th>
+            <th>Cambi</th>
             <th>Ritardo</th>
             <th>Cancellato</th>
           </tr>
@@ -39,6 +40,7 @@
             <td>{{ $train->departe_date }}</td>
             <td>{{ $train->arrive_station }}</td>
             <td>{{ $train->arrive_date }}</td>
+            <td>{{ $train->changes }}</td>
             <td>{{ $train->delay }}</td>
             <td>{{ $train->canceled }}</td>
           </tr>
