@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index() {
-        $trains = Train::all();
+        $trains = Train::select('*')->paginate(20);
         return view("home", compact("trains"));
     }
 }
