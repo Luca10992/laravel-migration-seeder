@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>Document</title>
+    <title>Trainlean</title>
 
     @vite('resources/js/app.js')
   </head>
@@ -41,8 +41,8 @@
             <td>{{ $train->arrive_station }}</td>
             <td>{{ $train->arrive_date }}</td>
             <td>{{ $train->changes }}</td>
-            <td>{{ $train->delay }}</td>
-            <td>{{ $train->canceled }}</td>
+            <td>{{ $train->delay . '"' }}</td>
+            <td>{{ $train->canceled ? 'Si' : 'No' }}</td>
           </tr>
           @empty
           @endforelse

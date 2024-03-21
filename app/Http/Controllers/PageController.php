@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index() {
-        $trains = Train::select('*')->where('arrive_date', '<=' , '2024-03-21')->get();
+        $trains = Train::all();
         return view("home", compact("trains"));
     }
 }

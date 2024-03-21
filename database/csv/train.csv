@@ -1,0 +1,6 @@
+"cod_train","agency","number_carrieges","departe_station","departe_date","arrive_station","arrive_date","delay","canceled","type","changes"
+"5849","Trenitalia","9","Roma","2024-03-21 18:00:00","Torino","2024-03-21 21:00:00","20","0","frecciarossa","1"
+"5849","Trenitalia","9","Brindisi","2024-03-28 18:00:00","Roma","2024-03-28 21:00:00","10","1","frecciarossa","0"
+"5849","Trenitalia","10","Roma","2024-03-21 18:00:00","Torino","2024-03-21 21:00:00","20","0","frecciargento","1"
+"4876","Trenitalia","8","Brindisi","2024-03-14 18:00:00","Roma","2024-03-14 21:00:00","45","0","regionale","0"
+"5849","Trenitalia","7","Roma","2024-03-18 18:00:00","Torino","2024-03-18 21:00:00","20","1","intercity","1"
